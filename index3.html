@@ -1,0 +1,44 @@
+//Design a contact us form with all fields as required.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function foo(){
+            alert("thanks! we will get back you soon ")
+        }
+    </script>
+</head>
+<body style="text-align: center; background-color: blueviolet;">
+    <form onsubmit="foo()" >
+        <h1 style="color: black;"><strong> please Contact us </strong></h1>
+        <h3><b>please fill the below form</b></h3>
+        <label for="fn"><b>First Name:</b>
+<input type="text" name="fn" id="fn" required placeholder="E.g.jhon"><br><br>
+
+        </label>
+
+<label for="ln"><b>Last Name:</b>
+    <input type="text" name="ln" id="ln" required placeholder="E.g.Doe">
+
+</label><br><br>
+
+<label for="eml"><b>Email:</b>
+<input type="email" name="eml" id="eml"  required placeholder="E.g. abc@.com">
+
+</label><br><br>
+<label for="pn"><b>Mobile no:</b>
+<input type="text" name="pn" id="pn" required placeholder="950654555">
+    
+</label><br><br>
+
+<textarea name="text" id="" cols="30" rows="10" required>subject....</textarea><br><br>
+
+<input type="submit"  value="submit" ></button>
+    </form>
+</body>
+</html>
